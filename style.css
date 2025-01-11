@@ -1,5 +1,11 @@
 * {
     font-family: "fira sans", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F1F1F3;
 }
 
 /* share style */
@@ -22,18 +28,25 @@
     font-weight: 700;
     color: #0E0E0E;
 }
-.card-title{
-    color: rgba(14, 14, 14, 0.50);
+
+.card-title {
+    color: rgba(14, 14, 14, 0.80);
     font-size: 20px;
     font-weight: 700;
 }
-.description-text{
+
+.description-text {
     color: rgba(14, 14, 14, 0.50);
     font-size: 16px;
     font-weight: 400;
 }
-main{
-    margin:20px 160px;
+
+main {
+    margin: 20px 160px;
+}
+
+.margin-bottom {
+    margin-bottom: 80px;
 }
 
 /* navigation var style */
@@ -89,5 +102,26 @@ main{
     color: #0E0E0E;
     font-size: 56px;
     margin: 0 0;
-    width: 67.5%;
+    width: 69%;
+}
+
+/* pillar card section style */
+.pillar-card {
+    display: flex;
+    gap: 24px;
+}
+.cards{
+    display: flex;
+    gap: ;
+}
+
+.card {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    padding: 24px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
