@@ -105,6 +105,7 @@ main {
     align-items: center;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .btn-third {
@@ -118,6 +119,7 @@ main {
     align-items: center;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .btn-fourth {
@@ -131,6 +133,7 @@ main {
     align-items: center;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* navigation var style */
@@ -323,9 +326,10 @@ main {
 .subscribe-btn {
     display: flex;
     gap: 0;
-
 }
-
+.subscribe-btn button{
+    cursor: pointer;
+}
 .subscribe-btn input {
     border: none;
     padding: 18px 40px;
