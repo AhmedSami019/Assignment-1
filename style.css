@@ -279,11 +279,16 @@ main {
 .amount {
     display: flex;
     gap: 24px;
+    font-size: 30px;
+    font-weight: 700;
 
+}
+#done-tk{
+    background-color: #C6E4D6;
 }
 
 .taka {
-    padding: 40px;
+    padding: 50px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: #FFF;
@@ -309,6 +314,10 @@ main {
     padding: 80px 265px;
     background-color: #C6E4D6;
     border-radius: 24px;
+}
+.subscribe p{
+    width: 500px;
+    text-align: center;
 }
 
 .subscribe-btn {
@@ -348,6 +357,7 @@ footer {
 footer h3{
     width: 230px;
 }
+
 
 footer .icons {
     display: flex;
